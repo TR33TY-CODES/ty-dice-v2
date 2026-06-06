@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="native-menu">
+        <div class="menu-header">
+            <h1 id="lbl-title">DICE MENU</h1>
+        </div>
+        
+        <div class="menu-items">
+            <div class="menu-item active" data-index="0">
+                <span class="label" id="lbl-amount">Amount of Dice</span>
+                <span class="value arrows">&lt; <span id="val-amount">1</span> &gt;</span>
+            </div>
+            
+            <div class="menu-item" data-index="1" id="row-mode">
+                <span class="label" id="lbl-mode">Show Sum Overhead</span>
+                <span class="value">
+                    <div class="ios-toggle active" id="val-mode-toggle">
+                        <div class="knob"></div>
+                    </div>
+                </span>
+            </div>
+            
+            <div class="menu-item" data-index="2">
+                <span class="label" id="lbl-roll">Roll Dice</span>
+            </div>
+            
+            <div class="menu-item" data-index="3">
+                <span class="label" id="lbl-cancel">Close Menu</span>
+            </div>
+        </div>
+
+        <div class="menu-description">
+            <p id="menu-desc">Description text here...</p>
+        </div>
+
+        <div class="menu-footer">
+            <div class="menu-footer">
+            <div class="control-group"><span class="key">↑↓</span> <span id="ft-nav">Navigate</span></div>
+            <div class="control-group"><span class="key">←→</span> <span id="ft-change">Change</span></div>
+            <div class="control-group"><span class="key">↵</span> <span id="ft-confirm">Confirm</span></div>
+            <div class="control-group"><span class="key">ESC</span> <span id="ft-back">Back</span></div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
