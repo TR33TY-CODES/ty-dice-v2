@@ -1,4 +1,4 @@
-# ty-dice
+# ty-dice V2
 A modern, dice rolling script for FiveM
 
 ### ⚠️ Disclaimer
