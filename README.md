@@ -1,5 +1,5 @@
 # ty-dice V2
-A modern, dice rolling script for FiveM
+A modern, dice rolling script for FiveM. Designed for a seamless and immersive roleplay experience, supporting both ESX and QBCore frameworks out of the box.
 
 ### ⚠️ Disclaimer
 
